@@ -1,50 +1,26 @@
-> This repository has been archived in favor of BioDrop's new layouts feature. Refer to [EddieHubCommunity/BioDrop#7310](https://github.com/EddieHubCommunity/BioDrop/issues/7310)
+> **This project is retired.** It is superseded by BioDrop's layouts feature. See [EddieHubCommunity/BioDrop#7310](https://github.com/EddieHubCommunity/BioDrop/issues/7310).
 
-<div align="center">
-  <img src="https://github.com/ikrishg/biodrop-self/raw/main/assets/biodrop.png" height="100px" />
-  <br />
-  <h1>BioDrop-Self</h1>
-  <p>Build your own UI Shell on top of BioDrop!</p>
-</div>
+# BioDrop-Self (retired)
 
-## 📸 Screenshots
+BioDrop-Self was a self-hosted Astro UI shell that pulled profile data from BioDrop. This repository is no longer maintained and is kept for historical reference only.
 
-| Desktop | Mobile |
-| --- | --- |
-| ![Screenshot of the application, the page includes a example of my (Krish Gupta)'s profile'](https://github.com/ikrishg/biodrop-self/raw/main/assets/screenshots/desktop.png) |   ![Screenshot of BioDrop Self On A Mobile Device To Showcase That It's Responsive](https://github.com/ikrishg/biodrop-self/raw/main/assets/screenshots/mobile.png)  |
+## Historical reference
 
-## 🌟 Features
+The code in this repo may still be useful to read or fork, but deploying new instances is not recommended.
 
-- [x] Completely Responsive and Mobile Friendly
-- [x] Deploy your own version of BioDrop Self in seconds
-- [x] Truly Customizable with TailwindCSS
+### Environment variables (legacy)
 
-You can change anything about it, as it's completely open source!
+`BIODROP_USERNAME` — BioDrop username used by the app.
 
-## 🚀 Deploy
-
-You can deploy your own version of BioDrop Self in seconds, with the help of [Vercel](https://vercel.com).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fikrishg%2Fbiodrop-self&env=BIODROP_USERNAME&project-name=biodrop&repository-name=biodrop-self&demo-title=BioDrop%20Self%20%E2%80%95%20Design%20your%20own%20Biodrop&demo-description=Self-host%20LinkFree's%20UI%20but%20still%20be%20on%20the%20community%20network&demo-url=https%3A%2F%2Fbiodrop-self.xkrish.co&demo-image=https%3A%2F%2Fgithub.com%2Fikrishg%2Fbiodrop-self%2Fraw%2Fmain%2Fassets%2Fscreenshots%2Fdesktop.png)
-
-## 🚀 Getting Started
-
-### 📝 Environment Variables
-
-`BIODROP_USERNAME` - Your BioDrop Username
-
-### 💻 Local Development
+### Local development (legacy)
 
 ```bash
-# Install dependencies
-$ yarn install --frozen-lockfile
-# Start the development server
-$ yarn dev
+yarn install --frozen-lockfile
+yarn dev
 ```
 
-## 🛠️ Built With
+## Built with
 
-- [Astro](https://astro.build) - The static site generator used
-- [TailwindCSS](https://tailwindcss.com) - The CSS framework used
-- [Vercel](https://vercel.com) - The hosting platform used
-- [BioDrop](https://biodrop.io) - The API used
+- [Astro](https://astro.build)
+- [TailwindCSS](https://tailwindcss.com)
+- [BioDrop](https://biodrop.io)
